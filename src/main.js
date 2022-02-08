@@ -1,6 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
+import store from './store.js';
+
+const app = createApp(App)
+app.use(store).mount('#app')
 
 // import axios from 'axios'
 
@@ -8,4 +12,3 @@ import './index.css'
 //   console.log(response);
 // });
 
-createApp(App).mount('#app')
