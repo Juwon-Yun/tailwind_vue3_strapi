@@ -119,9 +119,6 @@
          <div class="py-4 text-xs text-right">
             <a href="">&copy;2021 Someco Inc.</a>
         </div>
-         <div class="py-4 text-xs text-right">
-            <a href="">&copy;2021 Someco Inc.</a>
-        </div>
     </div>
 </footer>
 </template>
