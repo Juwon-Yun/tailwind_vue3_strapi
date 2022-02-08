@@ -1,5 +1,5 @@
 <template>
-  <div class="">AbleCloud</div>
+  <div class=""></div>
 </template>
 
 <script>

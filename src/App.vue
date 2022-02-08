@@ -1,6 +1,14 @@
 <template>
+<div class="flex w-screen h-screen">
+  <div class="w-1/6 h-full bg-blue-100">
+    <Sidebar/>
+  </div>
+  <div class="w-5/6 h-full bg-blue-300">
+    <DashBoard/>
+  </div>
+</div>
 
-<div class="container p-2 mx-auto">
+<!-- <div class="container p-2 mx-auto">
     <div class="flex flex-row flex-wrap py-4">
         <aside class="w-full px-2 sm:w-1/3 md:w-1/4">
             <div class="sticky top-0 w-full p-4 bg-white rounded-xl">
@@ -118,11 +126,19 @@
         </div>
        
     </div>
-</footer>
+</footer> -->
 </template>
 
 <script>
+  import Sidebar from '@/components/Sidebar.vue';
+  import DashBoard from '@/components/DashBoard.vue'
 
+  export default {
+    components: {
+      Sidebar,
+      DashBoard,
+    },
+  };
 </script>
 
 <style>
